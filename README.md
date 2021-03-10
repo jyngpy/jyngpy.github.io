@@ -1,37 +1,137 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/jyngpy/jyngpy.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jyngpy/jyngpy.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is a testing demo page">
+    <meta name="keywords" content="testing,html,demo">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Testing Demo Project</title>
+<link rel="stylesheet" type="text/css" href="project.css">
+    <link rel="stylesheet"  href="lib/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <div id="head">
+        <div class="logo_title">
+               <h1>Study Demo Site</h1>
+               <h2>简易的个性主页</h2>
+        </div>
+        <div class="navi">
+           <ul>
+               <li><a href = "">首页</a></li>
+               <li><a href = "">闲言碎语</a></li>
+               <li><a href = "">我是谁</a></li>
+           </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+ 
+ 
+    <div id="wrapper">
+        <div class="main">
+              <div class="item">
+                 <div class="item_img">
+                    <img src="cast.png" alt="Testing Demo Project pic">
+                 </div>
+                 <div class="item_content">
+                    <h3>LinuxCast测试标题测试标题</h3>
+                    <p class="item_info">作者：XXX  发表于：2017年7月15号</p>
+                    <p class="item_desc">LinuxCast测试内容测试内容测试内容测试文字测<br>
+                    测试文字测试文字测试文字测试文字测试文字测试文字</p>
+                 </div>
+              </div>
+              <div class="item">
+                 <div class="item_img">
+                    <img src="cast.png" alt="Testing Demo Project pic">
+                 </div>
+                 <div class="item_content">
+                    <h3>LinuxCast测试标题测试标题</h3>
+                    <p class="item_info">作者：XXX 发表于：2017年7月15号</p>
+                    <p class="item_desc">LinuxCast测试内容测试内容测试内容测试文字测<br>
+                    测试文字测试文字测试文字测试文字测试文字测试文字</p>
+                 </div>
+              </div>
+ 
+ 
+              <div class="item">
+                 <div class="item_img">
+                    <img src="cast.png" alt="Testing Demo Project pic">
+                 </div>
+                 <div class="item_content">
+                    <h3>LinuxCast测试标题测试标题</h3>
+                    <p class="item_info">作者：XXX 发表于：2017年7月15号</p>
+                    <p class="item_desc">LinuxCast测试内容测试内容测试内容测试文字测<br>
+                    测试文字测试文字测试文字测试文字测试文字测试文字</p>
+                 </div>
+              </div>
+ 
+ 
+              <div class="item">
+                 <div class="item_img">
+                    <img src="cast.png" alt="Testing Demo Project pic">
+                 </div>
+                 <div class="item_content">
+                    <h3>LinuxCast测试标题测试标题</h3>
+                    <p class="item_info">作者：XXX 发表于：2017年7月15号</p>
+                    <p class="item_desc">LinuxCast测试内容测试内容测试内容测试文字测<br>
+                    测试文字测试文字测试文字测试文字测试文字测试文字</p>
+                 </div>
+              </div>
+        </div>
+        <div class="side">
+              <div class="author_info">
+                   <div class="author_img">
+                      <img src="author.jpg" alt="Testing Demo project pic">
+                   </div>
+                   <div class="author_desc">
+                      <h4>Double Sweet</h4>
+                      <p>emmm..<br>
+                        emmmmmmmm...</p>
+                   </div>
+              </div>
+              <div class="top_article">
+                   <h4>推荐文章</h4>
+                   <ul>
+                   <li>好文要顶-1</li>
+                   <li>好文要顶-2</li>
+                   <li>好文要顶-3</li>
+                   <li>好文要顶-4</li>
+                   <li>好文要顶-5</li>
+                   </ul>
+              </div>
+              <div class="site-info">
+                   <p>访客：555555</p>
+                   <p>文章：666篇</p>
+              </div>
+        </div>
+        <div class="clear"></div>
+ 
+ 
+    </div>
+ 
+ 
+    <div id="footer">
+      <div class="site_about">
+           <p>2015-2017 CopyRight Study Demo Site</p>
+      </div>
+      <div class="site_link">
+           <ul>
+              <li><a href = "">关于我们</a></li>
+              <li><a href = "">联系我们</a></li>
+              <li><a href = "">使用条款</a></li>
+              <li><a href = "">意见反馈</a></li>
+           </ul>
+      </div>
+      <div class="clear"></div>
+ 
+ 
+    </div>
+ 
+ 
+    <script src="lib/jquery-2.1.1.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+————————————————
+版权声明：本文为CSDN博主「doubleSweet.」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/double_sweet1/article/details/78608710
